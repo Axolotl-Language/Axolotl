@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ee1cdc1a-7e10-4f2f-a713-1e6c2a15d5c8" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SoraVWV&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SoraVWV/Axolotl.git&quot;,
+    &quot;accountId&quot;: &quot;e88137ce-7fce-4b08-83fc-693f1dae1331&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2mnZFvtig1mkGCWSD6lpbmeLWOj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Sora/Documents/GitHub/Axolotl-Language/Axolotl",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sora\Documents\GitHub\Axolotl-Language\Axolotl\src\compiler" />
+      <recent name="C:\Users\Sora\Documents\GitHub\Axolotl\asset" />
+      <recent name="C:\Users\home\Documents\Axolotl\src" />
+      <recent name="C:\Users\home\Documents\Axolotl\src\adaptive\axolotl" />
+      <recent name="C:\Users\home\Documents\Axolotl\src\adaptive" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="axl.compiler.Main" />
+      <module name="Axolotl" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;$PROJECT_DIR$/src/test/axolotl/axl/example/Main.axl&quot;" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee1cdc1a-7e10-4f2f-a713-1e6c2a15d5c8" name="Changes" comment="" />
+      <created>1727714201185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727714201185</updated>
+      <workItem from="1727714202312" duration="1206000" />
+      <workItem from="1727715466345" duration="5676000" />
+      <workItem from="1727789837837" duration="7000" />
+      <workItem from="1727791581978" duration="25000" />
+      <workItem from="1727803668044" duration="13807000" />
+      <workItem from="1727890147329" duration="13305000" />
+      <workItem from="1728042970084" duration="14000" />
+      <workItem from="1728047259731" duration="2514000" />
+      <workItem from="1728120601860" duration="44000" />
+      <workItem from="1728479083027" duration="2473000" />
+      <workItem from="1728578310667" duration="10422000" />
+      <workItem from="1728767179463" duration="136000" />
+      <workItem from="1728809760497" duration="20555000" />
+      <workItem from="1731252863969" duration="7788000" />
+      <workItem from="1731405981802" duration="14000" />
+      <workItem from="1731588109346" duration="1294000" />
+      <workItem from="1731866045473" duration="1420000" />
+      <workItem from="1732271378615" duration="873000" />
+      <workItem from="1732388799539" duration="1659000" />
+      <workItem from="1732459183426" duration="1104000" />
+      <workItem from="1732460427966" duration="1879000" />
+      <workItem from="1732468517448" duration="1588000" />
+      <workItem from="1732542823555" duration="4005000" />
+      <workItem from="1732550305441" duration="434000" />
+      <workItem from="1732597248983" duration="266000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

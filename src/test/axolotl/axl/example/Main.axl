@@ -1,0 +1,6 @@
+fn specific_sq(a: Int) -> Int {
+    if (a < 0)
+        return -specific_sq(-a)
+
+    return a * a
+}
