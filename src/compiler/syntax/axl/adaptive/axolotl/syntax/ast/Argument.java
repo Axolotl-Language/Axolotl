@@ -1,6 +1,6 @@
 package axl.adaptive.axolotl.syntax.ast;
 
-import axl.utils.lexical.Token;
+import axl.adaptive.axolotl.lexical.Token;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.jetbrains.annotations.NotNull;
