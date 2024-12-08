@@ -4,7 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee1cdc1a-7e10-4f2f-a713-1e6c2a15d5c8" name="Changes" comment="" />
+    <list default="true" id="ee1cdc1a-7e10-4f2f-a713-1e6c2a15d5c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/statement/ElseStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/statement/FrameEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/statement/FrameStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/statement/WhileStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/declaration/DeclarationState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/entry/axl/compiler/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/entry/axl/compiler/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/DefaultFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/impl/FrameImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/DefaultToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/impl/TokenImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/DefaultTokenStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/impl/TokenStreamImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/DefaultTokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/impl/TokenizerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/DefaultTokenizerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/impl/TokenizerFrameImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/DefaultSyntaxAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/DefaultSyntaxAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/StateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/StateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/Argument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/Argument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/declaration/EndFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/declaration/StartFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/expression/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/expression/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/expression/IdentifyExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/expression/IdentifyExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/expression/LiteralExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/expression/LiteralExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/expression/MethodExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/expression/MethodExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/expression/ValueDefineExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/expression/ValueDefineExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/expression/VariableDefineExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/expression/VariableDefineExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/states/StateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/StateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/states/declaration/DeclarationState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/states/declaration/DeclarationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/states/declaration/FileState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/declaration/FileState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/states/declaration/FunctionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/declaration/FunctionState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/states/expression/ExpressionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/expression/ExpressionState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/states/expression/MethodExpressionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/expression/MethodExpressionState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/states/expression/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/expression/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/states/expression/OperatorEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/expression/OperatorEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/states/expression/OperatorGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/expression/OperatorGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/states/statement/BodyState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/statement/BodyState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/states/statement/IfStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/statement/IfStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/states/statement/ReturnStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/statement/ReturnStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/states/statement/WhileStatement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/axolotl/axl/example/Main.axl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/axolotl/axl/example/Main.axl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/axl/utils/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/axl/utils/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/axl/utils/lexical/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/Frame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/axl/utils/lexical/IllegalLexicalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/IllegalLexicalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/axl/utils/lexical/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/axl/utils/lexical/TokenStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/TokenStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/axl/utils/lexical/Tokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/Tokenizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/axl/utils/lexical/TokenizerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/TokenizerFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/axl/utils/lexical/TokenizerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lexical/axl/adaptive/axolotl/lexical/TokenizerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/axl/utils/syntax/IllegalSyntaxException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/IllegalSyntaxException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/axl/utils/syntax/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/axl/utils/syntax/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/axl/utils/syntax/SyntaxAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/SyntaxAnalyzer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,25 +103,25 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Sora/Documents/GitHub/Axolotl-Language/Axolotl",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sora/Documents/GitHub/Axolotl-Language/Axolotl&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -79,6 +132,9 @@
       <recent name="C:\Users\home\Documents\Axolotl\src" />
       <recent name="C:\Users\home\Documents\Axolotl\src\adaptive\axolotl" />
       <recent name="C:\Users\home\Documents\Axolotl\src\adaptive" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="axl.adaptive.axolotl.syntax.ast.statement" />
     </key>
   </component>
   <component name="RunManager">
@@ -141,7 +197,14 @@
       <workItem from="1732468517448" duration="1588000" />
       <workItem from="1732542823555" duration="4005000" />
       <workItem from="1732550305441" duration="434000" />
-      <workItem from="1732597248983" duration="266000" />
+      <workItem from="1732597248983" duration="2245000" />
+      <workItem from="1732624228646" duration="9000" />
+      <workItem from="1733132701232" duration="3633000" />
+      <workItem from="1733202059809" duration="9110000" />
+      <workItem from="1733244840732" duration="8414000" />
+      <workItem from="1733415394139" duration="2615000" />
+      <workItem from="1733461013809" duration="2756000" />
+      <workItem from="1733464688656" duration="356000" />
     </task>
     <servers />
   </component>

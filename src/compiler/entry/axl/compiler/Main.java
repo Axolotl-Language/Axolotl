@@ -1,7 +1,8 @@
 package axl.compiler;
 
-import axl.utils.lexical.TokenStream;
-import axl.adaptive.axolotl.syntax.DefaultSyntaxAnalyzer;
+import axl.adaptive.axolotl.lexical.TokenStream;
+import axl.adaptive.axolotl.syntax.IllegalSyntaxException;
+import axl.adaptive.axolotl.syntax.impl.DefaultSyntaxAnalyzer;
 import lombok.SneakyThrows;
 
 import java.io.File;
@@ -13,14 +14,18 @@ public class Main {
 
     @SneakyThrows
     public static void main(String[] args) {
-        File fileAXL = new java.io.File(args[0]);
-        String filename = fileAXL.getName();
-        String content = Files.readString(fileAXL.toPath());
-        file = new axl.utils.File(filename, content);
+        try {
+            File fileAXL = new java.io.File(args[0]);
+            String filename = fileAXL.getName();
+            String content = Files.readString(fileAXL.toPath());
+            file = new axl.utils.File(filename, content);
 
-        TokenStream stream = file.createTokenStream();
-        String ast = new DefaultSyntaxAnalyzer(stream).analyze().toString();
-        System.out.println(formatString(ast));
+            TokenStream stream = file.createTokenStream();
+            String ast = new DefaultSyntaxAnalyzer(stream).analyze().toString();
+            System.out.println(formatString(ast));
+        } catch (IllegalSyntaxException e) {
+            System.err.println(e.getMessage());
+        }
     }
 
     public static String formatString(Object obj) {

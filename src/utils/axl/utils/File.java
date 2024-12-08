@@ -1,10 +1,10 @@
 package axl.utils;
 
-import axl.adaptive.axolotl.lexical.DefaultTokenizer;
-import axl.utils.lexical.Token;
-import axl.utils.lexical.Tokenizer;
-import axl.adaptive.axolotl.lexical.DefaultTokenStream;
-import axl.utils.lexical.TokenStream;
+import axl.adaptive.axolotl.lexical.impl.TokenizerImpl;
+import axl.adaptive.axolotl.lexical.Token;
+import axl.adaptive.axolotl.lexical.Tokenizer;
+import axl.adaptive.axolotl.lexical.impl.TokenStreamImpl;
+import axl.adaptive.axolotl.lexical.TokenStream;
 import lombok.Getter;
 
 import java.util.ArrayList;
@@ -27,11 +27,11 @@ public class File {
         this.filename = filename;
         this.content = content;
         this.tokens = new ArrayList<>();
-        this.tokenizer = new DefaultTokenizer(this);
+        this.tokenizer = new TokenizerImpl(this);
     }
 
     public TokenStream createTokenStream() {
-        return new DefaultTokenStream(this, tokens, tokenizer);
+        return new TokenStreamImpl(this, tokens, tokenizer);
     }
 
 }

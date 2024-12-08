@@ -1,7 +1,7 @@
 package axl.adaptive.axolotl.syntax.ast.expression;
 
-import axl.utils.lexical.Token;
-import axl.utils.syntax.Node;
+import axl.adaptive.axolotl.lexical.Token;
+import axl.adaptive.axolotl.syntax.Node;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
