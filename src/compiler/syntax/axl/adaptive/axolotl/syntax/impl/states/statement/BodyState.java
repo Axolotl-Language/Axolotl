@@ -8,6 +8,7 @@ import axl.adaptive.axolotl.syntax.State;
 import axl.adaptive.axolotl.syntax.impl.StateController;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @SuppressWarnings("DuplicatedCode")
@@ -117,10 +118,45 @@ public class BodyState implements State {
             analyzer.getStates().pop();
             result.add(forStatement);
         });
-        StateController.body(analyzer, forStatement::setBody);
+        StateController.body(analyzer, result);
+
         StateController.custom(analyzer, () -> {
             analyzer.getStates().pop();
-            StateController.expression(analyzer, forStatement::setExpression);
+            if (!analyzer.boolEat(TokenType.RIGHT_PARENT)) {
+                StateController.custom(analyzer, () -> {
+                    analyzer.getStates().pop();
+                    analyzer.eat(TokenType.RIGHT_PARENT);
+                });
+                StateController.expression(analyzer, forStatement::setIterationExpression);
+            }
         });
+
+        StateController.custom(analyzer, () -> {
+            analyzer.getStates().pop();
+            if (!analyzer.boolEat(TokenType.SEMI)) {
+                StateController.custom(analyzer, () -> {
+                    analyzer.getStates().pop();
+                    analyzer.eat(TokenType.SEMI);
+                });
+                StateController.expression(analyzer, forStatement::setConditionExpression);
+            }
+        });
+
+        StateController.custom(analyzer, () -> {
+            analyzer.getStates().pop();
+            if (!analyzer.boolEat(TokenType.SEMI)) {
+                StateController.custom(analyzer, () -> {
+                    analyzer.getStates().pop();
+                    analyzer.eat(TokenType.SEMI);
+                });
+                StateController.expression(analyzer, forStatement::setInitializationExpression);
+            }
+        });
+
+        StateController.custom(analyzer, () -> {
+            analyzer.getStates().pop();
+            analyzer.eat(TokenType.LEFT_PARENT);
+        });
+
     }
 }

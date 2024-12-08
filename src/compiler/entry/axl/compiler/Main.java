@@ -25,6 +25,7 @@ public class Main {
             System.out.println(formatString(ast));
         } catch (IllegalSyntaxException e) {
             System.err.println(e.getMessage());
+            throw e;
         }
     }
 

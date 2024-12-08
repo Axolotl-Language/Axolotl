@@ -65,7 +65,7 @@ public class ExpressionState implements State {
                 last = stream.createFrame();
                 switch (stream.get().getType()) {
                     case SEMI:
-                        stream.next();
+//                        stream.next();
                     case COMMA, RIGHT_BRACE, LEFT_BRACE:
                         break main;
                 }

@@ -25,21 +25,4 @@ public class WhileStatement implements Node {
                 ",body=[" + body.stream().map(Object::toString).collect(Collectors.joining(",")) +
                 "]}";
     }
-
-    public static class Context {
-        // хранение локальных переменных и
-        // всякой промежуточной херни
-    }
-
-    public void semanticCheckNamespace(Queue<Consumer<Context>> semanticQueue) {
-        semanticQueue.add(ctx -> {
-            // ...
-        });
-        semanticQueue.add(ctx -> {
-            // ...
-        });
-        semanticQueue.add(ctx -> {
-            // ...
-        });
-    }
 }
