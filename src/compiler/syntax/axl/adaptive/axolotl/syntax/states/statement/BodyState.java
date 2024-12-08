@@ -54,6 +54,8 @@ public class BodyState implements State {
             ifStatement();
         } else if (analyzer.boolEat(TokenType.WHILE)) {
             whileStatement();
+        } else if (analyzer.boolEat(TokenType.FOR)) {
+            forStatement();
         } else if (analyzer.check(TokenType.LEFT_BRACE)) {
             StateController.custom(analyzer, () -> {
                 analyzer.getStates().pop();
@@ -102,6 +104,20 @@ public class BodyState implements State {
         StateController.custom(analyzer, () -> {
             analyzer.getStates().pop();
             StateController.expression(analyzer, whileStatement::setExpression);
+        });
+    }
+
+    private void forStatement() {
+        ForStatement forStatement = new ForStatement();
+
+        StateController.custom(analyzer, () -> {
+            analyzer.getStates().pop();
+            result.add(forStatement);
+        });
+        StateController.body(analyzer, forStatement::setBody);
+        StateController.custom(analyzer, () -> {
+            analyzer.getStates().pop();
+            StateController.expression(analyzer, forStatement::setExpression);
         });
     }
 }
