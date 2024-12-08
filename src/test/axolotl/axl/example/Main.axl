@@ -1,4 +1,4 @@
 fn specific_sq(x: Int) {
-    for (var i = 0; i < x; i++)
-        println(i)
+    for (var i = 0; i < x;)
+        println(i++)
 }

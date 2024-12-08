@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ee1cdc1a-7e10-4f2f-a713-1e6c2a15d5c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compiler/entry/axl/compiler/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/entry/axl/compiler/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/statement/ForStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/statement/ForStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/statement/WhileStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/statement/WhileStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/expression/ExpressionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/expression/ExpressionState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/statement/BodyState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/statement/BodyState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/axolotl/axl/example/Main.axl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/axolotl/axl/example/Main.axl" afterDir="false" />
     </list>
@@ -161,7 +157,7 @@
       <workItem from="1733461013809" duration="2756000" />
       <workItem from="1733464688656" duration="841000" />
       <workItem from="1733514315803" duration="278000" />
-      <workItem from="1733689581842" duration="915000" />
+      <workItem from="1733689581842" duration="1100000" />
     </task>
     <servers />
   </component>

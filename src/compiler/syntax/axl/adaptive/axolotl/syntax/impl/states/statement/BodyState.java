@@ -113,13 +113,9 @@ public class BodyState implements State {
 
     private void forStatement() {
         ForStatement forStatement = new ForStatement();
+        result.add(forStatement);
 
-        StateController.custom(analyzer, () -> {
-            analyzer.getStates().pop();
-            result.add(forStatement);
-        });
         StateController.body(analyzer, result);
-
         StateController.custom(analyzer, () -> {
             analyzer.getStates().pop();
             if (!analyzer.boolEat(TokenType.RIGHT_PARENT)) {
