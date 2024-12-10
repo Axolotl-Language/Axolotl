@@ -54,7 +54,9 @@ public class BodyState implements State {
         //  TODO add statements
         if (analyzer.boolEat(TokenType.RETURN)) {
             StateController.expression(analyzer, expression -> result.add(new ReturnStatement(expression)));
-        } else if (analyzer.boolEat(TokenType.IF)) {
+        } else if (analyzer.boolEat(TokenType.THROW)) {
+            StateController.expression(analyzer, expression -> result.add(new ThrowStatement(expression)));
+        }else if (analyzer.boolEat(TokenType.IF)) {
             ifStatement();
         } else if (analyzer.boolEat(TokenType.WHILE)) {
             whileStatement();
