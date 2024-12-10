@@ -8,7 +8,6 @@ import axl.adaptive.axolotl.syntax.State;
 import axl.adaptive.axolotl.syntax.impl.StateController;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @SuppressWarnings("DuplicatedCode")
@@ -61,6 +60,8 @@ public class BodyState implements State {
             whileStatement();
         } else if (analyzer.boolEat(TokenType.FOR)) {
             forStatement();
+        } else if (analyzer.boolEat(TokenType.TRY)) {
+            tryStatement();
         } else if (analyzer.check(TokenType.LEFT_BRACE)) {
             StateController.custom(analyzer, () -> {
                 analyzer.getStates().pop();
@@ -154,5 +155,30 @@ public class BodyState implements State {
             analyzer.eat(TokenType.LEFT_PARENT);
         });
 
+    }
+
+    private void tryStatement() {
+        result.add(new TryFrameStart());
+        StateController.custom(analyzer, () -> {
+            if (analyzer.boolEat(TokenType.CATCH)) {
+                CatchStatement catchStatement = new CatchStatement();
+                result.add(catchStatement);
+                analyzer.eat(TokenType.LEFT_PARENT);
+                StateController.body(analyzer, result);
+                StateController.custom(analyzer, () -> {
+                    analyzer.getStates().pop();
+                    analyzer.eat(TokenType.RIGHT_PARENT);
+                });
+                StateController.custom(analyzer, () -> {
+                    analyzer.getStates().pop();
+                    catchStatement.setName(analyzer.eat(TokenType.IDENTIFY));
+                });
+                StateController.type(analyzer, catchStatement::setType);
+            } else {
+                analyzer.getStates().pop();
+                result.add(new TryFrameEnd());
+            }
+        });
+        StateController.body(analyzer, result);
     }
 }

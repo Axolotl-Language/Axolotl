@@ -1,4 +1,6 @@
-fn specific_sq(x: Int) {
-    for (var i = 0; i < x;)
-        println(i++)
+fn foo(x: Int) {
+    try print()
+    catch (Exception e) print()
+    catch (Exception e) print()
+    catch (Exception e) print()
 }

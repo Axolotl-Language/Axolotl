@@ -4,15 +4,12 @@ import axl.adaptive.axolotl.syntax.Node;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
 @Setter
-public class FrameStart implements Node {
-
-    // semantic
-    private FrameEnd end;
+@Getter
+public class TryFrameEnd implements Node {
 
     @Override
     public String toString() {
-        return "FrameStart";
+        return "TryFrameEnd";
     }
 }
