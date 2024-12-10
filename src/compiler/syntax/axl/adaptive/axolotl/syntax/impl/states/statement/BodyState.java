@@ -171,11 +171,12 @@ public class BodyState implements State {
                     analyzer.getStates().pop();
                     analyzer.eat(TokenType.RIGHT_PARENT);
                 });
+                StateController.type(analyzer, catchStatement::setType);
                 StateController.custom(analyzer, () -> {
                     analyzer.getStates().pop();
                     catchStatement.setName(analyzer.eat(TokenType.IDENTIFY));
+                    analyzer.eat(TokenType.COLON);
                 });
-                StateController.type(analyzer, catchStatement::setType);
             } else {
                 analyzer.getStates().pop();
                 result.add(new TryFrameEnd());

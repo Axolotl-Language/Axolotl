@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee1cdc1a-7e10-4f2f-a713-1e6c2a15d5c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/statement/CatchStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/statement/TryFrameEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/statement/TryFrameStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/statement/FrameStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/ast/statement/FrameStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/statement/BodyState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/syntax/axl/adaptive/axolotl/syntax/impl/states/statement/BodyState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/axolotl/axl/example/Main.axl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/axolotl/axl/example/Main.axl" afterDir="false" />
     </list>
@@ -58,25 +54,25 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sora/Documents/GitHub/Axolotl-Language/Axolotl&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Sora/Documents/GitHub/Axolotl-Language/Axolotl",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -163,7 +159,7 @@
       <workItem from="1733514315803" duration="278000" />
       <workItem from="1733689581842" duration="5235000" />
       <workItem from="1733834010436" duration="1682000" />
-      <workItem from="1733835785505" duration="52000" />
+      <workItem from="1733835785505" duration="7117000" />
     </task>
     <servers />
   </component>

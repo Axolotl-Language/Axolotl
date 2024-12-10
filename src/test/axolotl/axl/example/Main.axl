@@ -1,6 +1,88 @@
-fn foo(x: Int) {
-    try print()
-    catch (Exception e) print()
-    catch (Exception e) print()
-    catch (Exception e) print()
+/*
+пройдемся, что нужно доработать:
+- добавить generics в типах
+- добавить модули
+- - поля модулей
+- - обработчики событий
+- добавить классы (ref)
+- - поля объектов
+- - - req обозначает, что поле необходимо при инициализации объекта
+- - - getter и setter, после которых идут обычное тело с кодом
+- - методы
+- - конструктор (сам предложи, как его можно сделать)
+*/
+
+package axl.example
+
+import org.example.Server
+
+module UserModule: UserEvent {
+
+    var onlineUsers = 0
+
+    on evеnt: UserConnectEvent {
+        val user: User = evеnt.getUser()
+
+        if !user.isVisible()
+            return
+
+        println("Connect user '" + user.getNickname() + "'. Users online: " + this.onlineUsers)
+
+        user.setCounted(true)
+        this.onlineUsers++
+    }
+
+    on evеnt: UserDisconnectEvent {
+        val user: User = evеnt.getUser()
+
+        if user.counted
+            this.onlineUsers++
+
+        if user.isVisible()
+            println("Disconnect user '" + user.getNickname() + "'. Users online: " + this.onlineUsers)
+    }
 }
+
+ref User {
+
+    req val nickname: String
+        getter nickname
+
+    req val visible: Bool
+        getter visible
+
+    var counted = false
+        getter counted
+}
+
+ref UserEvent {
+
+    req val user: User
+}
+
+ref UserConnectEvent: UserEvent
+
+ref UserDisconnectEvent: UserEvent
+
+fn main(args: List<String>) {
+    try {
+        Event.enable(UserModule.class)
+    } catch (e: EventException) {
+        println("Failed to load UserModule: " + e.getMessage())
+        return
+    }
+
+    Server.init()
+
+    while !Server.isDestroyed() {
+        Server.halt()
+    }
+}
+
+
+
+
+
+
+
+
