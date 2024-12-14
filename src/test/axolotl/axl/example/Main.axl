@@ -11,7 +11,7 @@
 - - методы
 - - конструктор (сам предложи, как его можно сделать)
 */
-
+/*
 package axl.example
 
 import org.example.Server
@@ -78,7 +78,11 @@ fn main(args: List<String>) {
         Server.halt()
     }
 }
+*/
 
+fn main() {
+    if true println("true") else println("false")
+}
 
 
 

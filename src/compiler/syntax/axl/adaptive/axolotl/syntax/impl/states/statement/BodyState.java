@@ -82,10 +82,7 @@ public class BodyState implements State {
         StateController.custom(analyzer, () -> {
             analyzer.getStates().pop();
             if (analyzer.boolEat(TokenType.ELSE)) {
-                StateController.custom(analyzer, () -> {
-                    analyzer.getStates().pop();
-                    result.add(new ElseStatement());
-                });
+                result.add(new ElseStatement());
                 StateController.body(analyzer, result);
             }
         });

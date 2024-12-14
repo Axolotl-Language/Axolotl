@@ -17,7 +17,7 @@ enum Operator {
     MODULO_ASSIGN(      TokenType.MODULO_ASSIGN,        OperatorGenerator.BINARY,       -1),
     EQUALS(             TokenType.EQUALS,               OperatorGenerator.BINARY,       0),
     NOT_EQUALS(         TokenType.NOT_EQUALS,           OperatorGenerator.BINARY,       0),
-    GREATER(            TokenType.GREATER,              OperatorGenerator.BINARY,       0),
+    GREATER(            TokenType.GREATER,              OperatorGenerator.BINARY,       8),
     LESS(               TokenType.LESS,                 OperatorGenerator.BINARY,       0),
     GREATER_OR_EQUAL(   TokenType.GREATER_OR_EQUAL,     OperatorGenerator.BINARY,       0),
     LESS_OR_EQUAL(      TokenType.LESS_OR_EQUAL,        OperatorGenerator.BINARY,       0),
